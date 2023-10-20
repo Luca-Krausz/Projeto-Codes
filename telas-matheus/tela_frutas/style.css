@@ -1,0 +1,90 @@
+html{
+    height: 1136px;
+    width: 640px;
+}
+
+
+h2{
+    
+    width: 13rem;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 3rem;
+}
+
+
+section{
+    display: flex;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    margin-left: 5rem ;
+    background-color: limegreen;
+    height: 7rem;
+    width: 30rem;
+}
+
+#mob {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+h3{
+    margin-left: 45px;
+    position: fixed;   
+}
+
+.barra-pesquisa {
+    margin-top: 2rem;
+    width: 30rem;
+    height: 4rem;
+    border: 0.1rem solid #013101;
+    border-radius: 0.7rem;
+    font-size: 2rem;
+    color: #01310158;
+    text-align: left;
+    line-height: 3.7rem;
+    text-indent: 4rem;
+    
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.relative {
+    display: flex;
+    position: relative;
+}
+
+#lupa {
+    position: absolute;
+    display: flex;
+    top: 3rem;
+    left: 1rem;
+    height: 2rem; 
+    width: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#foto_produto{
+    height: 6rem;
+    width: 6rem;
+    padding: 0.5rem;
+}
+
+#highline{
+    border-bottom: 10rem;
+}
