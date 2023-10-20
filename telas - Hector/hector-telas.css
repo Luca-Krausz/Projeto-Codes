@@ -1,0 +1,114 @@
+html{
+    height: 1136px;
+    width: 640px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+
+#guia {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+
+
+section2 {
+    display: flex;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    margin-left: 5rem ;
+    height: 7rem;
+    width: 30rem;
+}
+
+
+#manuntecao {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 5rem;
+    padding-top: 4.5rem;
+
+}
+
+#equipamentos {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: 3.3rem;
+    line-height: 5rem;
+    
+}
+
+#estrutura {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: 3.3rem;
+    line-height: 5rem;
+    
+}
+
+main1{
+    border: 0.1rem solid black;
+    margin: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0%; 
+    left: 0%;
+    right: 0%;
+    height: 55rem;
+    background-color: rgb(93, 195, 93);
+ 
+}
+
+
+
+
+
+#info-quadM-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: 3.3rem;
+    line-height: 5rem;
+    
+}
+
+#info-quadM-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3.3rem;
+    line-height: 5rem;
+
+}
+
+#info-quadM-3 {
+    display: flex;
+    justify-content: center;
+    font-size: 3.3rem;
+    line-height: 5rem;
+}
+
+
+
+
+
+h1{
+    display: flex;
+    justify-content:center;
+}
