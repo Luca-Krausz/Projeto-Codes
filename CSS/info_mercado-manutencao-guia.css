@@ -17,6 +17,15 @@ header{
     margin-left: 6rem;
 }
 
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
 
 #guia {
     display: flex;
@@ -40,10 +49,11 @@ header{
 
 #manuntecao {
     display: flex;
-    justify-content: center;
+    text-indent: -3.5rem;
     color: #000000;
     font-size: 5rem;
-    padding-top: 4.5rem;
+    padding-top: 7rem;
+    
 
 }
 
@@ -55,6 +65,14 @@ header{
     line-height: 5rem;
     
 }
+
+#icone-voltar {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 #estrutura {
     display: flex;
