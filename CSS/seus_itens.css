@@ -31,26 +31,35 @@ section{
 
 
 h1{
-    margin-top: 3.0rem;
+    margin-top: 5.0rem;
     font-size: 5.0rem;
+    text-indent: 2rem;
 }
 
 main{
     border: 0.1rem solid black;
     margin: 3rem;
+    position: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    bottom: 0%; 
-    left: 0%;
-    right: 0%;
     height: 55rem;
-    background-color:#A8F58D;
+    background-color:#E2FFD8;
  
 }
 
+
 a2{
     margin: 0.2rem;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -59,3 +68,61 @@ a2{
     width: 6rem;
     padding: 0.5rem;
 }
+
+.barra-nav {
+    display: flex;
+    width: 33.5rem;
+    height: 4.5rem;
+    border: 0.2rem solid #000000;
+    border-radius: 2.25rem;
+    background-color:#A8F58D;
+    margin-top: 4.5rem;
+
+}
+
+.evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#inicial img {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -0.7rem;
+}
+
+#info img {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
+}
+
+#vender img {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+}
+
+#perfil img {
+    display: flex;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+}
+
+footer {
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
