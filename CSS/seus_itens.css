@@ -17,6 +17,12 @@ h3{
     margin-left: -130px;
 }
 
+h5 {
+    display: flex;
+    font-size: 3rem;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 section{
     display: flex;
@@ -69,60 +75,22 @@ a2{
     padding: 0.5rem;
 }
 
-.barra-nav {
+header1{
     display: flex;
-    width: 33.5rem;
-    height: 4.5rem;
-    border: 0.2rem solid #000000;
-    border-radius: 2.25rem;
-    background-color:#A8F58D;
-    margin-top: 4.5rem;
-
-}
-
-.evenly {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#inicial img {
-    height: 6rem;
-    width: 6rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: -0.7rem;
-}
-
-#info img {
-    height: 4rem;
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0.2rem;
-}
-
-#vender img {
-    height: 4rem;
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0.3rem;
-}
-
-#perfil img {
-    display: flex;
-    height: 4rem;
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0.3rem;
-}
-
-footer {
-    margin-top: -10rem;
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
+    position: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
 
+#icone-voltar {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
