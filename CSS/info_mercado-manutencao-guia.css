@@ -71,6 +71,8 @@ header{
     position: absolute;
     top: 0;
     left: 0;
+    width: 4rem;
+    height: 4rem;
 }
 
 
@@ -133,3 +135,4 @@ h1{
     display: flex;
     justify-content:center;
 }
+

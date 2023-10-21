@@ -1,0 +1,160 @@
+html, body, main{
+    width: 640px;
+    height: 1136px;
+}
+
+header{
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+
+.voltar{
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.nome{
+    position: relative;
+    left: 2rem;
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: gray;
+}
+
+.peso{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: gray;
+}
+
+.preco{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: gray;
+}
+
+.peso input{
+    position: relative;
+    top: 2rem;
+    right: 5.25rem;
+    width: 13rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(226,255,216);
+    border: 0ch;
+}
+
+.preco input{
+    position: relative;
+    top: 10rem;
+    right:5.25rem;
+    width: 13rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226,255,216);
+    border: 0ch;
+}
+
+input{
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(226,255,216);
+    border: 0ch;
+}
+
+.foto{
+    position: relative;
+    background-color: lightgray;
+    top:-0.1rem;
+    left: 18rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 1.5rem;
+}
+
+.top-foto{
+    position: absolute;
+    background-color: gray;
+    top:18rem;
+    left: 18rem;
+    width: 18rem;
+    height: 2rem;
+    color:white;
+}
+
+.top-foto p{
+    position: relative;
+    left:.5rem;
+    top:.5rem;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+.descricao{
+    margin-left: 1rem;
+}
+
+.postar{
+    background-color:rgb(168, 245,141);
+    position: relative;
+    width: 15rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    left:20rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.postar a{
+    color:black;
+    text-decoration: none;
+    position: relative;
+    font-size: 3.5rem;
+    left:.7rem;
+    top:.7rem;
+}
+
+.justificar {
+    justify-content: space-evenly;
+}
+
