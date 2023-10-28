@@ -1,59 +1,53 @@
 html, body, main{
-    width: 100%;
-    height: 100%;
+    width: 640px;
+    height: 1136px;
 }
 
 header{
-    width: 100%;
-    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+
 }
 
 .voltar{
-    position: fixed;
+    position: relative;
     top: 0rem;
-    left: 0rem;
+    right: 10rem;
     width: 4rem;
     height: 4rem;
 }
 
 .foto{
-    position: fixed;
+    position: relative;
     top: 0rem;
-    right: 0rem;
+    left: 10.25rem;
 }
 
 main {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(135, 255, 135);
+    
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Mover para o final da tela */}
-
-input {
-    width: 20rem;
-    height: 2.5rem;
-    margin: 0 auto; /* Centralizar horizontalmente */
-    display: flex;
-    justify-content: center; /* Centralizar horizontalmente dentro do input */
-    align-items: center; /* Centralizar verticalmente dentro do input */
-    background-color: rgb(226, 255, 216);
-    border: 0;
+    justify-content: flex-end;
+    background-color: #E2FFD8; 
 }
 
-.digite {
-    width: 100%;
-    height: 3rem;
+input {
+    width: 30rem;
+    height: 4.5rem;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    background-color: #00000037; 
     font-size: 2rem;
-    border: 0.15rem solid black;
-    border-radius: 0.3rem;
-    color: beige;
-    background-color: gray;
+    text-indent: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+}
+
+input::placeholder {
+    color: #ffffff70;
 }
