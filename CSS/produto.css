@@ -36,6 +36,15 @@ header{
     margin: 30px 30px;
 }
 
+#icone-voltar {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+}
+
 .imagem2{
     height: 200px;
     width: 240px;
