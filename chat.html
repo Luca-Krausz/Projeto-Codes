@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href="CSS/reset.css">
     <link rel = 'stylesheet' href="CSS/chat.css">
-    <script src="JS/chat.js"></script>
+    <script src="JS/javascript.js"></script>
     <title>CHAT</title>
 </head>
 <body> 
@@ -17,11 +17,19 @@
             <img class = foto src="https://via.placeholder.com/62x62" alt="foto">
     </header>
     <main>
-        <ul class="chat">
-            <li>
-                <input type="text" placeholder="DIGITE AQUI">
-            </li>
+        <ul id="messageArea" class="chat">
+
         </ul>
-    </main>
+        <ul id="coluna"> 
+
+            <li id="linha">
+
+            <input type="text" id="messageInput" class="area-enviar" placeholder="DIGITE AQUI">
+            <img id="sendButton" class="area-enviar" src="IMG/send-icon.png" alt="">
+
+            </li>
+
+        </ul>
+    </main>    
 </body>
 </html>

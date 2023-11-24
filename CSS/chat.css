@@ -51,3 +51,44 @@ input {
 input::placeholder {
     color: #ffffff70;
 }
+
+.message-bubble {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    max-width: 20rem;
+    justify-content: right;
+    align-items: right;
+    word-wrap: break-word;
+}
+
+.chat li {
+    text-align: right;
+}
+
+#sendButton {
+
+    position: fixed;
+    bottom: 1.5rem;
+    right: 5rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.area-enviar {
+    position: fixed;
+    bottom: 0rem;
+    justify-items: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
