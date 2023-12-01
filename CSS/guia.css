@@ -55,7 +55,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0e0e0;
+    background-color: #E2FFD8;
     border: 0.125rem solid #c0c0c0; /* 2px if base font-size is 16px */
     border-radius: 0.625rem; /* 10px if base font-size is 16px */
     padding: 1rem;
