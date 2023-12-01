@@ -42,7 +42,7 @@ h1 {
     color: #00000065;
 }
 
-.grid-container {
+.quadrado {
     display: grid;
     grid-template-columns: 1fr; 
     gap: 1rem; 
@@ -51,7 +51,7 @@ h1 {
     margin-top: 2rem;
 }
 
-.grid-item {
+.quadrado-itens {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ h1 {
     padding: 1rem;
 }
 
-.grid-item img {
+.quadrado-itens img {
     max-width: 100%;
     height: auto;
     border-radius: 0.3125rem; /* 5px if base font-size is 16px */
