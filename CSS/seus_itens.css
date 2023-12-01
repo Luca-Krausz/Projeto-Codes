@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     margin-left: 10px;
     margin-top: 65px;
@@ -33,7 +37,7 @@ h5 {
     margin: 1rem;
     margin-top: 30px;
     justify-content: space-between;
-    background-color :rgb(191, 182, 182) ;
+    background-color :#f0f0f0 ;
 }
 
 
@@ -52,7 +56,7 @@ main{
     justify-content: space-between;
     align-items: center;
     height: 55rem;
-    background-color:#e2ffd800;
+    background-color: #E2FFD8; 
  
 }
 
@@ -136,4 +140,37 @@ footer {
     justify-content: center;
     align-items: center;
 
+}
+
+#icone-mais {
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    margin-left: 14rem;
+    margin-top: 0.5rem;
+
+}
+
+#botao-mais {
+
+    display: flex;
+    flex-direction: row;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    margin-top: 30px;
+    width: 31.7rem;
+    height: 4rem;
+    justify-content: space-between;
+    background-color :#f0f0f0 ;
+
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
 }

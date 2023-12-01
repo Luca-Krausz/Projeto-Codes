@@ -1,6 +1,7 @@
-html, body, main{
-    width: 640px;
-    height: 1136px;
+html {
+
+    font-family: 'Roboto', sans-serif;
+
 }
 
 header{
@@ -26,12 +27,14 @@ header{
 }
 
 main {
-    
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-color: #E2FFD8; 
+    justify-content: flex-start;
+    background-color: #E2FFD8;
+    overflow: auto; 
 }
+
+
 
 input {
     width: 30rem;
@@ -53,18 +56,21 @@ input::placeholder {
 }
 
 .message-bubble {
+
     display: flex;
     background-color: #f0f0f0;
     border-radius: 1rem;
     padding: 0.8rem;
     margin: 0.5rem;
     max-width: 20rem;
-    justify-content: right;
-    align-items: right;
+    justify-content: flex-end;
     word-wrap: break-word;
+    list-style: none;
 }
 
+
 .chat li {
+    display: flex;
     text-align: right;
 }
 

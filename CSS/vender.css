@@ -1,160 +1,129 @@
-html, body, main{
-    width: 640px;
-    height: 1136px;
+html {
+
+    font-family: 'Roboto', sans-serif;
+
 }
 
-header{
-    width: 100%;
-    height: 11rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-}
+header {
 
-
-.voltar{
-    position: fixed;
-    top: 0rem;
-    left: 0rem;
-    width: 4rem;
-    height: 4rem;
-}
-
-.nome{
+    color: #000000;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 5rem;
     position: relative;
-    left: 2rem;
+    height: 6rem;
     width: 20rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    color: gray;
 }
 
-.peso{
-    position: relative;
-    left: 2rem;
-    top: 2rem;
-    width: 20rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    color: gray;
-}
-
-.preco{
-    position: relative;
-    left: 2rem;
-    top: 2rem;
-    width: 20rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    color: gray;
-}
-
-.peso input{
-    position: relative;
-    top: 2rem;
-    right: 5.25rem;
-    width: 13rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(226,255,216);
-    border: 0ch;
-}
-
-.preco input{
-    position: relative;
-    top: 10rem;
-    right:5.25rem;
-    width: 13rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(226,255,216);
-    border: 0ch;
-}
-
-input{
-    width: 20rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(226,255,216);
-    border: 0ch;
-}
-
-.foto{
-    position: relative;
-    background-color: lightgray;
-    top:-0.1rem;
-    left: 18rem;
-    width: 18rem;
-    height: 18rem;
-    border-radius: 1.5rem;
-}
-
-.top-foto{
+.voltar {
     position: absolute;
-    background-color: gray;
-    top:18rem;
-    left: 18rem;
-    width: 18rem;
-    height: 2rem;
-    color:white;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Adjust as per your image size */
+    height: 30px; /* Adjust as per your image size */
 }
 
-.top-foto p{
-    position: relative;
-    left:.5rem;
-    top:.5rem;
+main {
+    padding: 20px;
 }
 
-.roboto{
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #000;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #aaa;
+}
+
+textarea {
+    border: none;
+    padding: 10px;
+    border-radius: 0;
+    margin-top: -10px; /* to align with the description line */
+    background: transparent;
+    border-bottom: 2px solid #ccc;
     font-family: 'Roboto', sans-serif;
-  }
-
-
-
-.descricao{
-    margin-left: 1rem;
+    font-size: 16px;
 }
 
-.postar{
-    background-color:rgb(168, 245,141);
+/* Style for the file input */
+input[type="file"] {
+    border: none;
+    padding: 0;
+    /* Add more styles to make it look like the screenshot */
+}
+
+button {
+    background: #4CAF50; /* Adjust the color to match your design */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+/* Style for description lines, assuming you have a class for these lines */
+.description-line {
+    border-bottom: 2px dashed #ccc;
+    margin-bottom: 5px;
+}
+
+/* Adjust the following classes based on your HTML structure */
+.nome, .peso, .preco, .foto, .descricao, .postar {
+    margin-bottom: 20px;
+}
+
+.botaoPostar {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+/* Hide the default file input and customize it */
+input[type='file'] {
+    opacity: 0;
+    width: 100%;
+    height: 60px;
     position: relative;
-    width: 15rem;
-    height: 5rem;
-    align-items: center;
-    justify-content: center;
-    left:20rem;
-    margin: 2rem;
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-
 }
 
-.postar a{
-    color:black;
-    text-decoration: none;
+/* Custom file upload button */
+.file-upload-wrapper {
     position: relative;
-    font-size: 3.5rem;
-    left:.7rem;
-    top:.7rem;
+    overflow: hidden;
+    display: inline-block;
 }
 
-.justificar {
-    justify-content: space-evenly;
+.file-upload-wrapper::after {
+    content: 'FOTO';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #4CAF50; /* Adjust the color to match your design */
+    color: white;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
 }
-
