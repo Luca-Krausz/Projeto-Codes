@@ -1,162 +1,68 @@
 html {
+    font-size: 16px;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
-}
-
-h2{
-    
-    width: 13rem;
-    margin-left: 10px;
-    margin-top: 40px;
-    font-size: 3rem;
-}
-
-
-section{
-    display: flex;
-    border: 0.1rem solid black;
-    margin: 1rem;
-    justify-content: space-between;
-    margin-left: 5rem ;
-    background-color:#E2FFD8;
-    height: 40rem;
-    width: 30rem;
-}
-
-#mob {
-    font-size: 2rem;
-    line-height: 2rem;
-}
-
-h3{
-    margin-left: 45px;
-    position: fixed;   
-}
-
-.barra-pesquisa {
-    margin-top: 2rem;
-    width: 30rem;
-    height: 4rem;
-    border: 0.1rem solid #000000;
-    border-radius: 0.7rem;
-    font-size: 2rem;
-    color: #000000;
-    text-align: left;
-    line-height: 3.7rem;
-    text-indent: 4rem;
-    
-}
-
-.input::placeholder {
-    color: #00000065;
-}
-
-.linha {
-    display: flex;
-    flex-direction: row;
-}
-
-.coluna {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
-}
-
-.relative {
-    display: flex;
-    position: relative;
-}
-
-#lupa {
-    position: absolute;
-    display: flex;
-    top: 3rem;
-    left: 1rem;
-    height: 2rem; 
-    width: 2rem;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-#foto_produto{
-    height: 8rem;
-    width: 8rem;
-    padding: 01rem;
-}
-
-#highline{
-    width: 25rem;
-    font-size: 7rem;
-    margin-left: 5rem;
-}
-
-#pesquisa{
-    margin-left: 5rem;
-}
-
-.barra-nav {
-    display: flex;
-    width: 33.5rem;
-    height: 4.5rem;
-    border: 0.2rem solid #000000;
-    border-radius: 2.25rem;
-    background-color:#A8F58D;
-    margin-top: 4.5rem;
-
-}
-
-.evenly {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#inicial img {
-    height: 6rem;
-    width: 6rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: -0.7rem;
-}
-
-#info img {
-    height: 4rem;
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0.2rem;
-}
-
-#vender img {
-    height: 4rem;
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0.3rem;
-}
-
-#perfil img {
-    display: flex;
-    height: 4rem;
-    width: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 0.3rem;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
     align-items: center;
-
 }
 
 #icone-voltar {
-    
     position: absolute;
     top: 0;
     left: 0;
     width: 4rem;
     height: 4rem;
+}
+
+h1 {
+    font-size: 5rem; 
+    margin: 1rem 0;
+}
+
+.barra-pesquisa {
+    margin-top: 2rem;
+    width: 80%; 
+    max-width: 30rem;
+    height: 4rem; 
+    border: 0.1rem solid #000000; 
+    border-radius: 0.7rem; 
+    font-size: 2rem; 
+    color: #000000;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.barra-pesquisa::placeholder {
+    color: #00000065;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem; 
+    width: 80%;
+    max-width: 40rem; 
+    margin-top: 2rem;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border: 0.125rem solid #c0c0c0; /* 2px if base font-size is 16px */
+    border-radius: 0.625rem; /* 10px if base font-size is 16px */
+    padding: 1rem;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.3125rem; /* 5px if base font-size is 16px */
 }
