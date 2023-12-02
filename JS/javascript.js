@@ -34,27 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('sell-form');
 
-    var postar = document.querySelector('.postar');
-
-    posta.addEventListener('click', function() {
-
-        var mais = document.getElementById('botao-mais');
-    
-
-
-    });
-
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-
-    var postar = document.querySelector('.postar_produto');
-
-    posta.addEventListener('click', function() {
-
-        postar.textContent = 'Postar Produto';
-
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        window.location.href = "seus-itens.html"; 
     });
 });
+
   
