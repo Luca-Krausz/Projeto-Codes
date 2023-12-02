@@ -1,91 +1,62 @@
-html {
+body {
     font-family: 'Roboto', sans-serif;
-}
-
-header{
-    width: 100%;
-    height: 9rem;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-}
-
-.voltar{
-    position: fixed;
-    top: 0rem;
-    left: 0rem;
-}
-
-.coluna{
-    display:flex;
     flex-direction: column;
-}
-
-.linha{
-    display:flex;
-    flex-direction: row;
-}
-
-.imagem1{
-    height: 200px;
-    width: 240px;
-    background-color: cadetblue;
-    border: .5rem solid cadetblue;
-    margin: 30px 30px;
+    align-items: center;
 }
 
 #icone-voltar {
-    
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 4rem;
-    height: 4rem;
+    top: 1rem;
+    left: 1rem;
+    width: 4rem; /* 4rem on a 640px wide viewport */
+    height: 4rem; /* 4rem on a 640px wide viewport */
 }
 
-.imagem2{
-    height: 200px;
-    width: 240px;
-    border: .5rem solid black;
-    margin: 30px 30px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+h1 {
+    font-size: 5rem; /* Adjust font size here if necessary */
+    text-align: center;
+    margin-top: 5rem;
 }
 
-.imagem3{
-    height: 200px;
-    width: 580px;
-    margin: 30px 30px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+h2 {
+    margin-bottom: 0.5rem;
 }
 
-.itempp{
-    height: 40px;
-    width: 110px;
-    background-color: greenyellow;
-    margin-bottom: 1rem;
-    border: 5px 5px;
-    margin-left: 7rem;
-    font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+#content {
+    width: 90%;
+    max-width: 640px; /* Ensures content doesn't exceed the design's max width */
 }
 
-.justify-content{
-    display:flex;
-    justify-content: space-between;
+#photo-section,
+#recent-sales,
+#market-summary,
+#description {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #E2FFD8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.roboto{
-    font-family: 'Roboto', sans-serif;
-  }
+#product-photo,
+#market-graph {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 
-.descricao{
-    margin-left: 1rem;
+#recent-sales ul {
+    list-style: none;
+    padding: 0;
+}
+
+#recent-sales li {
+    margin-bottom: 0.5rem;
+}
+
+#description p {
+    line-height: 1.5;
 }

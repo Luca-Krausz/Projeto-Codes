@@ -6,52 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href="CSS/reset.css">
     <link rel = 'stylesheet' href="CSS/produto.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Vender</title>
 </head>
 <body>
-    <header>
-        <a href="Tela-Informacao-Inicial.html">
-            <img id="icone-voltar" src="IMG/back-icon.png" alt="voltar">
-        </a>
-        <h1 class="roboto">PRODUTO</h1>
-    </header>
-    <main>
-
-    <ul class="coluna">
-        <li>
-            <ul class="linha">
-                <li class="imagem1"></li>
-                <li class="imagem2">
-                    <ul class="coluna">
-                        <li class="itempp">Preço</li>
-                        <li class="itempp">Preço</li>
-                        <li class="itempp">Preço</li>
-                    </ul>
-                </li>
+    <a href="Tela-Informacao-Inicial.html">
+        <img id="icone-voltar" src="IMG/back-icon.png" alt="voltar">
+    </a>
+    <h1>PRODUTO</h1>
+    
+    <div id="content">
+        <div id="photo-section">
+            <img src="IMG/grafico-arroz.png" alt="Foto do Produto" id="product-photo">
+        </div>
+        <div id="recent-sales">
+            <h2>VENDAS RECENTES</h2>
+            <ul>
+                <li>PREÇO</li>
+                <li>PREÇO</li>
+                <li>PREÇO</li>
             </ul>
-            <ul class="imagem3">
-                <img src="IMG/graficotomate.png" alt="Gráfico do tomate" width="600" height="250">
-            </ul>
-
-            <ul class="descricao roboto">
-                <p>DESCRIÇÃO:</p>
-                <p>____________________________________</p>
-                <p>____________________________________</p>
-                <p>____________________________________</p>                
-                <p>____________________________________</p>
-                <p>____________________________________</p>
-                <p>____________________________________</p>
-                <p>____________________________________</p>
-                <p>____________________________________</p>                
-            </ul>
-        </li>
-    </ul>
-        
-        
-    </main>
-
+        </div>
+        <div id="market-summary">
+            <h2>RESUMO DO MERCADO</h2>
+            <img src="IMG/previsao-de-preco.png" alt="Gráfico do mercado" id="market-graph">
+        </div>
+        <div id="description">
+            <h2>DESCRIÇÃO:</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
 </body>
 </html>
