@@ -46,3 +46,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    var postar = document.querySelector('.postar_produto');
+
+    posta.addEventListener('click', function() {
+
+        postar.textContent = 'Postar Produto';
+
+    });
+});
+  
