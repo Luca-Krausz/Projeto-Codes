@@ -30,7 +30,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #E2FFD8;
+    background-color: #ffff;
     overflow: auto; 
 }
 
@@ -58,7 +58,7 @@ input::placeholder {
 .message-bubble {
 
     display: flex;
-    background-color: #f0f0f0;
+    background-color: #E2FFD8;
     border-radius: 1rem;
     padding: 0.8rem;
     margin: 0.5rem;
