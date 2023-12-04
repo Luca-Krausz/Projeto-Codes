@@ -1,49 +1,3 @@
-// Chat 
-
-document.addEventListener('DOMContentLoaded', function() {
-    const input = document.getElementById('messageInput');
-    const sendButton = document.getElementById('sendButton');
-    const messageArea = document.getElementById('messageArea');
-
-    input.addEventListener('keypress', function(event) {
-        if (event.key === "Enter") {
-            const messageText = input.value.trim();
-            if (messageText) {
-                createMessageBubble(messageText);
-                input.value = '';
-                event.preventDefault(); 
-            }
-        }
-    });
-    
-    sendButton.addEventListener('click', function() {
-        const messageText = input.value.trim();
-        if (messageText) {
-            createMessageBubble(messageText);
-            input.value = '';
-        }
-    });
-
-    function createMessageBubble(text) {
-        const messageBubble = document.createElement('li');
-        messageBubble.textContent = text;
-        messageBubble.classList.add('message-bubble');
-        messageArea.prepend(messageBubble);
-        messageArea.scrollTop = 0;
-    }
-});
-
-// Botão "Postar" da página de venda de itens
-
-document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('sell-form');
-
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        window.location.href = "seus-itens.html"; 
-    });
-});
-
 // Adicionar itens na página de venda de itens
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -84,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var itemSection = document.createElement('section');
         itemSection.id = 'section';
         itemSection.innerHTML = `
-            <img src="IMG/default-product-image.jpg" alt="" id="foto_produto">
+            <img src="IMG/image-icon.png" alt="" id="foto_produto">
             <section>
                 <h2>
                 ${itemData.productName}
@@ -101,4 +55,3 @@ document.addEventListener('DOMContentLoaded', function() {
         mainElement.insertBefore(itemSection, mainElement.firstChild);
     }
 });
-
