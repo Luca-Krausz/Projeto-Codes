@@ -1,3 +1,15 @@
+// Botão "Postar" da página de venda de itens
+
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('sell-form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        window.location.href = "seus-itens.html"; 
+    });
+});
+
+
 // Adicionar itens na página de venda de itens
 
 document.addEventListener('DOMContentLoaded', function() {
