@@ -1,5 +1,9 @@
-body {
+html{
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,12 +15,12 @@ body {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    width: 4rem; /* 4rem on a 640px wide viewport */
-    height: 4rem; /* 4rem on a 640px wide viewport */
+    width: 4rem; 
+    height: 4rem; 
 }
 
 h1 {
-    font-size: 5rem; /* Adjust font size here if necessary */
+    font-size: 5rem;
     text-align: center;
     margin-top: 5rem;
 }
@@ -27,7 +31,7 @@ h2 {
 
 #content {
     width: 90%;
-    max-width: 640px; /* Ensures content doesn't exceed the design's max width */
+    max-width: 640px; 
 }
 
 #photo-section,

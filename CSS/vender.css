@@ -1,5 +1,9 @@
-body {
+html{
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -103,8 +107,33 @@ h1 {
 button {
     background-color:#A8F58D;
     float: right;
-    height: 3rem;
-    width: 7rem;
-    font-size: 1.5rem;
+    height: 4.5rem;
+    width: 12rem;
+    font-size: 2rem;
 
 }
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao-seus-itens {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.6rem;
+    width: 5.6rem;
+    border: 0.1rem solid #000;
+    border-radius: calc(5.6rem / 2);
+    background-color: #A8F58D;
+    margin-top: 1.5rem;
+    margin-left: 30rem;
+    
+}
+

@@ -1,7 +1,5 @@
-html {
-
+html{
     font-family: 'Roboto', sans-serif;
-
 }
 
 header{
@@ -29,8 +27,7 @@ header{
 main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    background-color: #ffff;
+    background-color: #ffffff;
     overflow: auto; 
 }
 
@@ -59,19 +56,24 @@ input::placeholder {
 
     display: flex;
     background-color: #E2FFD8;
-    border-radius: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
     padding: 0.8rem;
     margin: 0.5rem;
+    margin-left: 20rem;
     max-width: 20rem;
-    justify-content: flex-end;
-    word-wrap: break-word;
+    min-height: 1.5rem;
+    justify-content: flex-start;
+    word-break: break-word;
     list-style: none;
+    hyphens: none;
+    
 }
 
 
 .chat li {
     display: flex;
-    text-align: right;
+    text-align: left;
 }
 
 #sendButton {

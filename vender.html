@@ -19,24 +19,24 @@
     <form id="sell-form">
         <section class="input-group">
             <input type="text" id="product-name" name="product_name" placeholder="Digite o nome do produto" required>
-            <img src="IMG\74673.png" alt="Add">
+            <img src="IMG\74673.png" alt="">
         </section>
 
         <section class="input-group">
             <input type="number" id="weight" name="weight" placeholder="Peso (Kg)" min="0" step="any" required>
-            <img src="IMG\74673.png" alt="Add">
+            <img src="IMG\74673.png" alt="">
         </section>
 
         <section class="input-group">
             <input type="text" id="price" name="price" placeholder="Preço (p/ Kg)" required>
-            <img src="IMG\74673.png" alt="Add">
+            <img src="IMG\74673.png" alt="">
         </section>
 
         <section class="photo-upload">
             <label for="photo">FOTO</label>
             <input type="file" id="photo" name="photo" accept="image/*" style="display: none;">
             <label for="photo" class="upload-icon-label">
-                <img src="IMG\image-icon.png" alt="Upload" class="upload-icon">
+                <img src="IMG\image-icon.png" alt="" class="upload-icon">
             </label>
         </section>        
 
@@ -45,7 +45,21 @@
             <textarea id="description" name="description" rows="5" required></textarea>
         </section>
         
-        <button type="submit" id="postar_produto" > POSTAR </button>
+        
+
+        <footer>
+
+            <button type="submit" id="postar_produto" > POSTAR </button>
+
+            <section class="botao-seus-itens">
+
+                <a href="seus-itens.html"> 
+                <img src="IMG/checklist.png" class="upload-icon" alt="">
+                </a>
+                
+            </section>
+
+        </footer>
     
     </form>
 </body>

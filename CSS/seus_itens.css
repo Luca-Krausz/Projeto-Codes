@@ -23,21 +23,21 @@ h3{
 
 h5 {
     display: flex;
+    flex-direction: row;
     font-size: 3rem;
     text-align: right;
     margin-right: 1rem;
     margin-top: 0.2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#section{
+.section{
     display: flex;
     flex-direction: row;
     border: 0.1rem solid black;
     margin: 1rem;
-    margin-top: 30px;
+    margin-top: 2rem;
     justify-content: space-between;
-    background-color :#f0f0f0 ;
+    background-color :#ffffff ;
 }
 
 
@@ -77,7 +77,15 @@ main{
     padding: 0.5rem;
 }
 
-#icone-voltar {
+.foto_produto{
+    height: 6rem;
+    width: 6rem;
+    padding: 0.5rem;
+}
+
+
+
+.icone-voltar {
     
     position: absolute;
     top: 0;
@@ -161,7 +169,7 @@ footer {
     width: 31.7rem;
     height: 4rem;
     justify-content: space-between;
-    background-color :#f0f0f0 ;
+    background-color :#ffffff ;
 
 }
 
