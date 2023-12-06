@@ -1,3 +1,11 @@
+// Limpa o Array (localStorage) de itens vendidos após recarregar a página
+
+/*document.addEventListener('DOMContentLoaded', function() {
+
+                localStorage.removeItem('postedItems');
+});*/
+
+// Código para adicionar itens à página
 
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('sell-form');
@@ -43,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${itemData.productName}
                 </h2>
                 <h3>
-                ${itemData.price} R$ por ${itemData.weight} Kg
+                ${itemData.weight} Kg por ${itemData.price} R$
                 </h3>
             </section>
             <a href="chat.html"><img src="IMG/1310190.png" alt="" id="foto_produto"></a>

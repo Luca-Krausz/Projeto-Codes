@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const messageBubble = document.createElement('li');
         messageBubble.textContent = text;
         messageBubble.classList.add('message-bubble');
-        messageArea.prepend(messageBubble);
+        messageArea.appendChild(messageBubble);
         messageArea.scrollTop = 0;
     }
 });
